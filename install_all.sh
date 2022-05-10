@@ -4,11 +4,7 @@
 echo "Installing all the dependencies and required materials for running the tool"
 # INSTALLING  RECON DEPENDENCIES
 bash install.sh 
-sleep 2
-
-#INSTALLING VULSCAN FOR CVE LOOKUP
-git clone https://github.com/scipag/vulscan scipag_vulscan
-ln -s `pwd`/scipag_vulscan /usr/share/nmap/scripts/vulscan    
+sleep 2 
 
 #INSTALLING THE ACTIVE RECON
 bash install_tools.sh
