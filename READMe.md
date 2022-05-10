@@ -6,10 +6,15 @@ its is more advanced + well adopted tool , basically it scan the website check a
 It is basically a combo of all the tools which i use for my bug hunting .
 
 Installation and Requirements:
+
 Only for Debian Linux
+
 Prerequisites
+
 go
+
 gem
+
 Then run:
 
 sudo bash install_all.sh # then choose potential according to your choose low / high
@@ -24,11 +29,15 @@ Then,
 
 commands to be run 
 
-git clone https://github.com/hack2gather/J-Recon/
-cd J-Recon
-chmod +x *
-sudo bash install_all.sh (as mentioned above) run only once
-sudo bash J-Recon # choose potential and other stuffs wisely
+1) git clone https://github.com/hack2gather/J-Recon/
+
+2) cd J-Recon
+
+3) chmod +x *
+
+4) sudo bash install_all.sh (as mentioned above) run only once
+
+5) sudo bash J-Recon # choose potential and other stuffs wisely
 
 
 
