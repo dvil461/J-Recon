@@ -57,9 +57,9 @@ echo "Starting SubEnum $d"
 
 echo "Creating directory"
 set -e
-#if [ ! -d $PWD/J-Recon ]; then
-#	mkdir Recon
-#fi
+if [ ! -d $PWD/J-Recon ]; then
+	mkdir Recon
+fi
 if [ ! -d $PWD/J-Recon/$d ]; then
 	mkdir Recon/$d
 fi
